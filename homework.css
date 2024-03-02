@@ -1,5 +1,5 @@
 .main-section {
-    padding-bottom: 10px
+    margin-bottom: 60px;
 }
 
 
@@ -27,7 +27,13 @@
 }
 
 .FP {
-    margin-left: 320px;
+    display: flex;
+
+}
+
+.st {
+    display: flex;
+    justify-content: space-between;
 }
 
 #ei {
@@ -62,10 +68,22 @@
     justify-content: space-evenly;
     color: blue;
     margin-top: 50px;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 
 .footer {
-    border: solid black 1px;
-    
-    border-bottom: 100%;
+    margin-top: 60px;
+    margin-bottom: 100%;
+    border-top: 1px solid rgb(129, 121, 121) ;
+}
+
+.ttt{
+    display: flex;
+    justify-content: center;
+}
+
+.NA {
+    display: flex;
+    justify-content: center;
 }
